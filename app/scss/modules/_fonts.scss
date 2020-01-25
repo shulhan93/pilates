@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'SF UI Text';
+  src: url('../fonts/SFUITEXT/SFUIText-Medium.woff2') format('woff2'),
+      url('../fonts/SFUITEXT/SFUIText-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src: url('../fonts/SFUITEXT/SFUIText-Light.woff2') format('woff2'),
+      url('../fonts/SFUITEXT/SFUIText-Light.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF UI Text';
+  src: url('../fonts/SFUITEXT/SFUIText-Bold.woff2') format('woff2'),
+      url('../fonts/SFUITEXT/SFUIText-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima';
+  src: url('../fonts/ProximaNova-Regular.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}

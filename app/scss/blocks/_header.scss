@@ -1,0 +1,48 @@
+.header {
+  position: relative;
+  padding-top: 25px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: 0;
+    width: 55%;
+    height: 100vh;
+    z-index: -1;
+    background: url('../img/header/ellips.svg') left bottom /cover  no-repeat;
+  }
+
+
+  &:before {
+    content: '';
+    position: absolute;
+    right: -28px;
+    z-index: -1;
+    width: 56px;
+    height: 56px;
+    @include circle-empty;
+  }
+
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .logo img {
+    max-width: 100%;;
+    width: 100%;
+  }
+
+  &__telephone {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.37px;
+    text-transform: uppercase;
+    color: #000000;
+    opacity: 0.87;
+  }
+}

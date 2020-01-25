@@ -1,0 +1,32 @@
+.button {
+  position: relative;
+
+  display: inline-block;
+  padding: 1.42em 3.21em;
+
+  font-size: 14px;
+  color: $white;
+  border-radius: 2.14em;
+  border: 2px solid $white;
+
+  transition: all 0.3s;
+
+  &:after {
+    content: url('../img/arrow-btn.png');
+    position: absolute;
+    right: -40px;
+    top: 55%;
+    transform: translateY(-50%);
+    transition: all 0.5s;
+  }
+
+  &:hover {
+    color: $green;
+    background-color: $white;
+  }
+
+  &:hover:after {
+    right: -80px;
+    opacity: 0;
+  }
+}

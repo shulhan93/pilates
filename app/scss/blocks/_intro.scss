@@ -1,0 +1,65 @@
+.intro {
+  position: relative;
+  padding-top: 135px;
+
+  &__container {
+    position: relative;
+  }
+
+  &__img-girl {
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: -175px;
+
+    img {
+      max-width: 100%;
+      width: 100%;
+    }
+
+    &:after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      z-index: -1;
+      width: 455px;
+      height: 455px;
+      @include circle;
+
+      transform: translate(-50%, -50%);
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 100px;
+      z-index: -1;
+      width: 59px;
+      height: 59px;
+      @include circle;
+    }
+
+  }
+
+  &__title {
+    font-family: $Roboto;
+    font-size: 58px;
+    font-weight: 300;
+    line-height: 72px;
+    text-transform: uppercase;
+    letter-spacing: 4.36px;
+  }
+
+  &__subtitle {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30.68px;
+  }
+
+  &__button {
+    margin-top: 45px;
+  }
+}

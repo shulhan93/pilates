@@ -1,0 +1,20 @@
+/* ==========Fonts========= */
+$SF: 'SF UI Text', sans-serif;
+$Roboto: 'Roboto', sans-serif;
+/* ==========Color========= */
+$white: #fff;
+$green: #91aa59;
+$green-light: #91aa59;
+
+/* ==========Mixins========= */
+@mixin circle {
+  display: block;
+  border-radius: 50%;
+  background-color:rgba( $green-light, 0.5);
+}
+
+@mixin circle-empty {
+  display: block;
+  border-radius: 50%;
+  border: 8px solid rgba( $green-light, 0.5);
+}
