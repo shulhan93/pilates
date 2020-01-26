@@ -2,12 +2,15 @@
   position: relative;
 
   display: inline-block;
-  padding: 1.42em 3.21em;
+  width: 17.7em;
+  height: 3.8em;
 
   font-size: 14px;
   color: $white;
   border-radius: 2.14em;
   border: 2px solid $white;
+  line-height: 3.8em;
+  text-align: center;
 
   transition: all 0.3s;
 
@@ -28,5 +31,9 @@
   &:hover:after {
     right: -80px;
     opacity: 0;
+  }
+
+  &--small {
+    width: 16.6em;
   }
 }

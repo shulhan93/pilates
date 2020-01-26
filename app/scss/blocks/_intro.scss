@@ -1,16 +1,18 @@
 .intro {
   position: relative;
-  padding-top: 135px;
 
   &__container {
-    position: relative;
+   /*  position: relative; */
+   display: flex;
+   justify-content: space-between;
   }
 
   &__img-girl {
-    position: absolute;
+    position: relative;
+   /*  position: absolute;
     z-index: -1;
     right: 0;
-    top: -175px;
+    top: -51%; */
 
     img {
       max-width: 100%;
@@ -43,6 +45,10 @@
 
   }
 
+  &__inner {
+    margin-top: 138px;
+  }
+
   &__title {
     font-family: $Roboto;
     font-size: 58px;
@@ -62,4 +68,10 @@
   &__button {
     margin-top: 45px;
   }
+}
+
+@media (max-width: 1365px) {
+/*   .container {
+    max-width: 690px;
+  } */
 }

@@ -1,0 +1,79 @@
+.price {
+  margin-top: 196px;
+
+  &__row {
+    margin: 0 -10px;
+    margin-top: 70px;
+    display: flex;
+  }
+
+  &__col {
+    padding: 0 10px;
+    width: 33%;
+  }
+
+  &__col:nth-child(1) .price__item {
+    background-color: rgba(#91aa59, 0.5);
+  }
+
+  &__col:nth-child(2) .price__item {
+    background-color: rgba(#91aa59, 0.7);
+  }
+
+  &__col:nth-child(3) .price__item {
+    background-color: rgba(#91aa59, 0.9);
+  }
+
+  &__item {
+    position: relative;
+    padding-top: 190px;
+    padding-left: 70px;
+    padding-bottom: 95px;
+
+    transition: transform 0.4s, box-shadow 0.4s;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 3px 0 15px rgba($black, 0.2);
+    }
+  }
+
+  &__number {
+    position: absolute;
+    top: 53px;
+    right: 39px;
+    opacity: 0.1;
+    color: #ffffff;
+    font-family: $Roboto;
+    font-size: 210px;
+    font-weight: 700;
+  }
+
+  &__name {
+    color: $white;
+    font-family: $Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+  }
+
+  &__level {
+    font-family: $Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 2.4px;
+  }
+
+  &__cost {
+    margin-top: 25px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__schedule {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    font-weight: 500;
+  }
+}

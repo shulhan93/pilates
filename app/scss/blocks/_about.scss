@@ -1,0 +1,56 @@
+.about {
+  padding-top: 107px;
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__block-text {
+    margin-top: 67px;
+    max-width: 383px;
+  }
+
+  &__text {
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 24.01px;
+    font-weight: 400;
+    color: $black;
+    opacity: 0.8;
+  }
+
+  &__link {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 1.44px;
+    font-weight: 500;
+    color: #2a4f37;
+
+    &::before {
+      content: url('../img/arrow-link.svg');
+      position: absolute;
+      right: -13px;
+      top: 1px;
+    }
+  }
+
+  &__block-img {
+    position: relative;
+    text-align: right;
+  }
+
+  img:nth-child(2) {
+    position: absolute;
+    left: -250px;
+    bottom: 0;
+  }
+
+  img:nth-child(3) {
+    position: absolute;
+    left: -100px;
+    top: 200px;
+    z-index: -1;
+
+  }
+
+}
