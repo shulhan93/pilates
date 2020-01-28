@@ -1,0 +1,146 @@
+.slider {
+  position: relative;
+  margin-top: 70px;
+
+  &__wrapper {
+    margin: 24px auto;
+    padding: 90px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 977px;
+    box-shadow: 0 9px 15px 9px rgba(33, 33, 33, 0.04);
+
+    &:before {
+      content: url('../img/reviews/reviews-point.svg');
+      position: absolute;
+      right: 70px;
+      top: 48px;
+    }
+  }
+
+  &__photo {
+    margin-right: 50px;
+  }
+
+  &__block-text {
+    max-width: 422px;
+  }
+
+  &__name {
+    opacity: 0.87;
+    color: $black;
+    font-family: $Roboto;
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  &__year {
+    margin-right: 17px;
+    opacity: 0.87;
+    color: $black;
+    font-family: $Roboto;
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  &__text {
+    margin-top: 25px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 23.96px;
+  }
+
+  &__inner {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+  }
+
+  &__social-ico {
+    margin-right: 10px;
+  }
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: flex;
+  justify-content: center;
+}
+
+.slick-slide {
+  outline: none;
+}
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  width: 20px;
+  height: 37px;
+  font-size: 0;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+  left: 0;
+  background: url('../img/slider/arrow-left.svg') 0 0 /100% no-repeat;
+}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+  right: 0;
+  background: url('../img/slider/arrow-right.svg') 0 0 /100% no-repeat;
+}
+
+.slick-arrow.slick-disabled{
+  opacity: 0.2;
+}
+
+/* Точки (булиты) */
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slick-dots li {
+  margin-right: 20px;
+  width: 15px;
+  height: 15px;
+  list-style: none;
+
+}
+
+/* Активная точка */
+.slick-dots li.slick-active button {
+  background-color: $green;
+  transform: scale(1.3);
+}
+
+/* Элемент точки */
+.slick-dots li button {
+  width: 9px;
+  height: 12px;
+  background-color: $green-light;
+  border: none;
+  border-radius: 50%;
+  font-size: 0;
+  outline: none;
+  cursor: pointer;
+
+  transition: all, 0.4s;
+}

@@ -4,18 +4,18 @@ $Roboto: 'Roboto', sans-serif;
 /* ==========Color========= */
 $white: #fff;
 $green: #91aa59;
-$green-light: #91aa59;
+$green-light: rgba(#91aa59, 0.5);
 $black: #000;
 
 /* ==========Mixins========= */
 @mixin circle {
   display: block;
   border-radius: 50%;
-  background-color:rgba( $green-light, 0.5);
+  background-color: $green-light;
 }
 
 @mixin circle-empty {
   display: block;
   border-radius: 50%;
-  border: 8px solid rgba( $green-light, 0.5);
+  border: 8px solid  $green-light;
 }
