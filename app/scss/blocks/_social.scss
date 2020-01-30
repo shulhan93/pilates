@@ -1,0 +1,9 @@
+.social {
+  display: flex;
+
+  &__item {
+    margin-left: 20px;
+    font-size: 20px;
+    color: rgba($white, 0.87);
+  }
+}

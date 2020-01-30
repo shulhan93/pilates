@@ -1,0 +1,19 @@
+.footer {
+  margin-top: -4px;
+  padding: 38px 0;
+  background-color: $green;
+
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__text {
+    color: #fefefe;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22.03px;
+    letter-spacing: 1.52px;
+  }
+}

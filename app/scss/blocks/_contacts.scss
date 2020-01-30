@@ -1,3 +1,46 @@
 .contacts {
   margin-top: 138px;
+
+  &__inner {
+    position: relative;
+    top: 70px;
+    z-index: 1;
+  }
+
+  &__block {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 60px 30px;
+
+    box-shadow: 0 6px 15px rgba(33, 33, 33, 0.2);
+    background-color: #91aa59;
+  }
+
+  &__item {
+    margin-bottom: 25px;
+  }
+
+  &__title {
+    color: rgba($white, 0.87);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30.85px;
+  }
+
+  &__text {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21.38px;
+
+    a {
+      color: rgba($white, 0.87);
+    }
+  }
+}
+
+.map {
+  position: relative;
+  margin-top: 70px;
 }
