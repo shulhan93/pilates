@@ -9,361 +9,388 @@
   <script src="https://kit.fontawesome.com/ef9d875dbd.js" crossorigin="anonymous"></script>
   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300,400,500,700&display=swap&subset=cyrillic-ext"
     rel="stylesheet">
+  <link rel="stylesheet" href="css/jquery.pagepiling.min.css">
+  <link rel="stylesheet" href="css/fullpage.min.css">
   <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
-  <!-- ========== header ========== -->
-  <header class="header">
-    <div class="container">
-      <div class="navbar">
-        <a href="#" class="logo">
-          <img src="img/header/logo.png" alt="логотип">
-        </a>
-        <div class="burger">
-          <span></span>
-        </div>
-        <a href="tel:+79185556677" class="navbar__telephone">+7 918 555 66 77</a>
-      </div>
-    </div>
-
-    <div class="intro">
-      <div class="intro__container container">
-        <div class="intro__inner">
-          <h1 class="intro__title">
-            Студия<br> пилатеса
-          </h1>
-          <h2 class="intro__subtitle">Твое здоровое тело через 10 занятий</h2>
-          <a href="#" class="intro__button button">Смотреть расписание</a>
-        </div>
-        <div class="intro__img-girl">
-          <img src="img/intro/intro-girl.png" alt="">
-        </div>
-      </div>
-    </div>
-    <!-- ========== /.intro ========== -->
-  </header>
-  <!-- ========== /.header ========== -->
-
-  <section class="about">
-    <div class="container">
-      <h2 class="title">О пилатесе</h2>
-      <div class="about__inner">
-        <div class="about__block-text">
-
-          <p class="about__text">
-            Пилатес соединяет элементы растяжки
-            с элементами силовой тренировки<br><br>
-            Комплекс упражнений укрепляет мышцы пресса
-            и спины, улучшает гибкость мышц и связок, подвижность суставов и избавляет
-            от дискомфорта в позвоночнике
-          </p>
-          <a href="#" class="about__link">ПОДРОБНЕЕ</a>
-        </div>
-
-        <div class="about__block-img">
-          <img src="img/about/about-img1.png" alt="">
-          <img src="img/about/about-img2.png" alt="">
-          <img src="img/point.svg" alt="">
-        </div>
-
-      </div>
-    </div>
-  </section>
-  <!-- ========== /.about ========== -->
-
-  <section class="price">
-    <div class="container">
-      <h2 class="title">Расписание и стоимость</h2>
-      <div class="price__row">
-
-        <div class="price__col">
-          <div class="price__item">
-            <span class="price__number">01</span>
-            <div class="price__name">
-              уровень
-              <h3 class="price__level">новичок</h3>
+  <div id="pagepiling">
+    <!-- ========== header ========== -->
+    <div class="section">
+      <section class="header ">
+        <div class="container">
+          <div class="navbar">
+            <a href="#" class="logo">
+              <img src="img/header/logo.png" alt="логотип">
+            </a>
+            <div class="burger">
+              <span></span>
             </div>
-            <div class="price__cost">
-              150 руб. / занятие
-            </div>
-            <div class="price__schedule">
-              <p>пн 9:00 — 10:00</p>
-              <p>ср 9:00 — 10:00</p>
-              <p>пт 9:00 — 10:00</p>
-            </div>
-            <a href="#" class="button button--small">Записаться</a>
+            <a href="tel:+79185556677" class="navbar__telephone">+7 918 555 66 77</a>
           </div>
         </div>
 
-        <div class="price__col">
-          <div class="price__item">
-            <span class="price__number">02</span>
-            <div class="price__name">
-              уровень
-              <h3 class="price__level">ПРОФИ</h3>
+        <div class="intro">
+          <div class="intro__container container">
+            <div class="intro__inner">
+              <h1 class="intro__title">
+                Студия<br> пилатеса
+              </h1>
+              <h2 class="intro__subtitle">Твое здоровое тело через 10 занятий</h2>
+              <a href="#" class="intro__button button">Смотреть расписание</a>
             </div>
-            <div class="price__cost">
-              200 руб. / занятие
+            <div class="intro__img-girl">
+              <img src="img/intro/intro-girl.png" alt="">
             </div>
-            <div class="price__schedule">
-              <p>пн 18:15 — 19:45</p>
-              <p>пн 18:15 — 19:45</p>
-              <p>пн 18:15 — 19:45</p>
-            </div>
-            <a href="#" class="button button--small">Записаться</a>
           </div>
         </div>
+        <!-- ========== /.intro ========== -->
+      </section>
+    </div>
+    <!-- ========== /.header ========== -->
 
-        <div class="price__col">
-          <div class="price__item">
-            <span class="price__number">03</span>
-            <div class="price__name">
-              уровень
-              <h3 class="price__level">Мастер</h3>
+    <!-- ========== about ========== -->
+    <div class="section">
+      <section class="about">
+        <div class="container">
+          <h2 class="title">О пилатесе</h2>
+          <div class="about__inner">
+            <div class="about__block-text">
+
+              <p class="about__text">
+                Пилатес соединяет элементы растяжки
+                с элементами силовой тренировки<br><br>
+                Комплекс упражнений укрепляет мышцы пресса
+                и спины, улучшает гибкость мышц и связок, подвижность суставов и избавляет
+                от дискомфорта в позвоночнике
+              </p>
+              <a href="#" class="about__link">ПОДРОБНЕЕ</a>
             </div>
-            <div class="price__cost">
-              350 руб. / занятие
+
+            <div class="about__block-img">
+              <img src="img/about/about-img1.png" alt="">
+              <img src="img/about/about-img2.png" alt="">
+              <img src="img/point.svg" alt="">
             </div>
-            <div class="price__schedule">
-              <p>пн 20:00 — 21:30</p>
-              <p>пн 20:00 — 21:30</p>
-              <p>пн 20:00 — 21:30</p>
-            </div>
-            <a href="#" class="button button--small">Записаться</a>
+
           </div>
         </div>
-      </div>
-      <!-- /.price-row -->
+      </section>
     </div>
-  </section>
-  <!-- ========== /.price ========== -->
+    <!-- ========== /.about ========== -->
 
-  <section class="exercise">
-    <div class="container">
-      <h2 class="title">Как проходят занятия</h2>
+    <!-- ========== price ========== -->
+    <div class="section">
+      <section class="price ">
+        <div class="container">
+          <h2 class="title">Расписание и стоимость</h2>
+          <div class="price__row">
 
-      <div class="exercise__item">
-        <div class="exercise__block-text">
-          <h3 class="exercise__title">Дыхательные техники</h3>
-          <p class="exercise__text">
-            Специальные дыхательные упражнения помогут сконцентрировать внимание и сфокусировать сознание на мышцах тела
-          </p>
-        </div>
-        <div class="exercise__img">
-          <img src="img/exercise/exercise-1.png" alt="">
-        </div>
-      </div>
-
-      <div class="exercise__item">
-        <div class="exercise__block-text">
-          <h3 class="exercise__title">Разминка</h3>
-          <p class="exercise__text">
-            Перед началом занятия разогреваем тело:
-            проработываем мышцы спины, шеи, выполняем упражнения на баланс под спокойную музыку
-          </p>
-        </div>
-        <div class="exercise__img">
-          <img src="img/exercise/exercise-2.png" alt="">
-        </div>
-      </div>
-
-      <div class="exercise__item">
-        <div class="exercise__block-text">
-          <h3 class="exercise__title">Основной блок</h3>
-          <p class="exercise__text">
-            Упражнения выполняются лежа на коврике
-            без оборудования или с малым оборудованием,
-            в медленном темпе
-          </p>
-        </div>
-        <div class="exercise__img">
-          <img src="img/exercise/exercise-3.png" alt="">
-        </div>
-      </div>
-
-      <div class="exercise__item">
-        <div class="exercise__block-text">
-          <h3 class="exercise__title">Стрейчинг</h3>
-          <p class="exercise__text">
-            В конце занятия выполняем специальные упражнения для развития гибкости, снятия усталости, стресса и
-            мышечного напряжения
-          </p>
-        </div>
-        <div class="exercise__img">
-          <img src="img/exercise/exercise-4.png" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- ========== /.exercise ========== -->
-
-  <section class="reviews">
-    <div class="container">
-      <div class="h2 title">Отзывы</div>
-      <div class="slider">
-
-        <div class="slider__item">
-          <div class="slider__wrapper">
-            <div class="slider__photo">
-              <img src="img/reviews/reviews-1.png" alt="">
-            </div>
-            <div class="slider__block-text">
-              <h3 class="slider__name">Вероника Кулешова</h3>
-              <div class="slider__inner">
-                <span class="slider__year">25 лет</span>
-                <div class="slider__social">
-                  <a class="slider__social-ico" href="#">
-                    <i class="fab fa-vk"></i>
-                  </a class="slider__social-ico">
-                  <a class="slider__social-ico" href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
+            <div class="price__col">
+              <div class="price__item">
+                <span class="price__number">01</span>
+                <div class="price__name">
+                  уровень
+                  <h3 class="price__level">новичок</h3>
                 </div>
+                <div class="price__cost">
+                  150 руб. / занятие
+                </div>
+                <div class="price__schedule">
+                  <p>пн 9:00 — 10:00</p>
+                  <p>ср 9:00 — 10:00</p>
+                  <p>пт 9:00 — 10:00</p>
+                </div>
+                <a href="#" class="button button--small">Записаться</a>
               </div>
-              <p class="slider__text">
-                Хожу на пилатес уже пять месяцев.
-                После десяти занятий уже увидела результат: тело подтянулось, улучшилась осанка, появился пресс.
-                И самое главное, пропал сильный изгиб поясничного отдела, который меня очень беспокоил.
+            </div>
+
+            <div class="price__col">
+              <div class="price__item">
+                <span class="price__number">02</span>
+                <div class="price__name">
+                  уровень
+                  <h3 class="price__level">ПРОФИ</h3>
+                </div>
+                <div class="price__cost">
+                  200 руб. / занятие
+                </div>
+                <div class="price__schedule">
+                  <p>пн 18:15 — 19:45</p>
+                  <p>пн 18:15 — 19:45</p>
+                  <p>пн 18:15 — 19:45</p>
+                </div>
+                <a href="#" class="button button--small">Записаться</a>
+              </div>
+            </div>
+
+            <div class="price__col">
+              <div class="price__item">
+                <span class="price__number">03</span>
+                <div class="price__name">
+                  уровень
+                  <h3 class="price__level">Мастер</h3>
+                </div>
+                <div class="price__cost">
+                  350 руб. / занятие
+                </div>
+                <div class="price__schedule">
+                  <p>пн 20:00 — 21:30</p>
+                  <p>пн 20:00 — 21:30</p>
+                  <p>пн 20:00 — 21:30</p>
+                </div>
+                <a href="#" class="button button--small">Записаться</a>
+              </div>
+            </div>
+          </div>
+          <!-- /.price-row -->
+        </div>
+      </section>
+    </div>
+    <!-- ========== /.price ========== -->
+
+    <!-- ========== exercise ========== -->
+    <div class="section pp-scrollable">
+      <section class="exercise ">
+        <div class="container">
+          <h2 class="title">Как проходят занятия</h2>
+
+          <div class="exercise__item">
+            <div class="exercise__block-text">
+              <h3 class="exercise__title">Дыхательные техники</h3>
+              <p class="exercise__text">
+                Специальные дыхательные упражнения помогут сконцентрировать внимание и сфокусировать сознание на мышцах
+                тела
               </p>
             </div>
-          </div>
-        </div>
-
-        <div class="slider__item">
-          <div class="slider__wrapper">
-            <div class="slider__photo">
-              <img src="img/reviews/reviews-2.png" alt="">
+            <div class="exercise__img">
+              <img src="img/exercise/exercise-1.png" alt="">
             </div>
-            <div class="slider__block-text">
-              <h3 class="slider__name">Кристина Егорова</h3>
-              <div class="slider__inner">
-                <span class="slider__year">23 лет</span>
-                <div class="slider__social">
-                  <a class="slider__social-ico" href="#">
-                    <i class="fab fa-vk"></i>
-                  </a class="slider__social-ico">
-                  <a class="slider__social-ico" href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </div>
-              </div>
-              <p class="slider__text">
-                Рекомендую заниматься всем! У меня сколиоз и спина часто болит после рабочего дня. После занятий
-                появилась лекость в мышцах и свобода движений. Приходите!
+          </div>
+
+          <div class="exercise__item">
+            <div class="exercise__block-text">
+              <h3 class="exercise__title">Разминка</h3>
+              <p class="exercise__text">
+                Перед началом занятия разогреваем тело:
+                проработываем мышцы спины, шеи, выполняем упражнения на баланс под спокойную музыку
               </p>
             </div>
-          </div>
-        </div>
-
-        <div class="slider__item">
-          <div class="slider__wrapper">
-            <div class="slider__photo">
-              <img src="img/reviews/reviews-3.png" alt="">
+            <div class="exercise__img">
+              <img src="img/exercise/exercise-2.png" alt="">
             </div>
-            <div class="slider__block-text">
-              <h3 class="slider__name">Елизавета Смирнова</h3>
-              <div class="slider__inner">
-                <span class="slider__year">29 лет</span>
-                <div class="slider__social">
-                  <a class="slider__social-ico" href="#">
-                    <i class="fab fa-vk"></i>
-                  </a class="slider__social-ico">
-                  <a class="slider__social-ico" href="#">
-                    <i class="fab fa-instagram"></i>
-                  </a>
-                </div>
-              </div>
-              <p class="slider__text">
-                Очень нравятся занятия, хожу уже пять месяцев. На занятиях делаем много упражнений на пресс, бедра и
-                спину. Мышци подтянулись, появился рельеф и хорошее настроение :)
+          </div>
+
+          <div class="exercise__item">
+            <div class="exercise__block-text">
+              <h3 class="exercise__title">Основной блок</h3>
+              <p class="exercise__text">
+                Упражнения выполняются лежа на коврике
+                без оборудования или с малым оборудованием,
+                в медленном темпе
               </p>
             </div>
-          </div>
-        </div>
-
-      </div>
-      <!-- ./slider -->
-    </div>
-  </section>
-  <!-- ========== /.reviews ========== -->
-
-  <section class="contacts">
-    <div class="container">
-      <h2 class="title">Контакты</h2>
-      <div class="contacts__inner">
-        <div class="contacts__block">
-          <div class="contacts__item">
-            <div class="contacts__title">
-              Адрес
-            </div>
-            <div class="contacts__text">
-              <a href="#">г. Кропоткин
-                ул. Дугинец 10а</a>
+            <div class="exercise__img">
+              <img src="img/exercise/exercise-3.png" alt="">
             </div>
           </div>
 
-          <div class="contacts__item">
-            <div class="contacts__title">
-              Телефон
+          <div class="exercise__item">
+            <div class="exercise__block-text">
+              <h3 class="exercise__title">Стрейчинг</h3>
+              <p class="exercise__text">
+                В конце занятия выполняем специальные упражнения для развития гибкости, снятия усталости, стресса и
+                мышечного напряжения
+              </p>
             </div>
-            <div class="contacts__text">
-              <a href="#">+7 918 365 06 07</a>
-            </div>
-          </div>
-
-          <div class="contacts__item">
-            <div class="map__title">
-              E-mail
-            </div>
-            <div class="contacts__text">
-              <a href="#">pilatesplus@gmail.com</a>
+            <div class="exercise__img">
+              <img src="img/exercise/exercise-4.png" alt="">
             </div>
           </div>
         </div>
-        <!-- ./contacts__block -->
-      </div>
+      </section>
     </div>
+    <!-- ========== /.exercise ========== -->
 
-    <div class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.69219910288!2d27.581632651479406!3d53.93721203789147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf6e6a8716ff%3A0xa9e21a901b28152!2z0YPQuy4g0JzQsNC60YHQuNC80LAg0JHQvtCz0LTQsNC90L7QstC40YfQsCAxMzAsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1580290930122!5m2!1sru!2sby"
-        width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="">
-      </iframe>
+    <!-- ========== reviews ========== -->
+    <div class="section">
+      <section class="reviews">
+        <div class="container">
+          <div class="h2 title">Отзывы</div>
+          <div class="slider">
+
+            <div class="slider__item">
+              <div class="slider__wrapper">
+                <div class="slider__photo">
+                  <img src="img/reviews/reviews-1.png" alt="">
+                </div>
+                <div class="slider__block-text">
+                  <h3 class="slider__name">Вероника Кулешова</h3>
+                  <div class="slider__inner">
+                    <span class="slider__year">25 лет</span>
+                    <div class="slider__social">
+                      <a class="slider__social-ico" href="#">
+                        <i class="fab fa-vk"></i>
+                      </a class="slider__social-ico">
+                      <a class="slider__social-ico" href="#">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <p class="slider__text">
+                    Хожу на пилатес уже пять месяцев.
+                    После десяти занятий уже увидела результат: тело подтянулось, улучшилась осанка, появился пресс.
+                    И самое главное, пропал сильный изгиб поясничного отдела, который меня очень беспокоил.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider__item">
+              <div class="slider__wrapper">
+                <div class="slider__photo">
+                  <img src="img/reviews/reviews-2.png" alt="">
+                </div>
+                <div class="slider__block-text">
+                  <h3 class="slider__name">Кристина Егорова</h3>
+                  <div class="slider__inner">
+                    <span class="slider__year">23 лет</span>
+                    <div class="slider__social">
+                      <a class="slider__social-ico" href="#">
+                        <i class="fab fa-vk"></i>
+                      </a class="slider__social-ico">
+                      <a class="slider__social-ico" href="#">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <p class="slider__text">
+                    Рекомендую заниматься всем! У меня сколиоз и спина часто болит после рабочего дня. После занятий
+                    появилась лекость в мышцах и свобода движений. Приходите!
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="slider__item">
+              <div class="slider__wrapper">
+                <div class="slider__photo">
+                  <img src="img/reviews/reviews-3.png" alt="">
+                </div>
+                <div class="slider__block-text">
+                  <h3 class="slider__name">Елизавета Смирнова</h3>
+                  <div class="slider__inner">
+                    <span class="slider__year">29 лет</span>
+                    <div class="slider__social">
+                      <a class="slider__social-ico" href="#">
+                        <i class="fab fa-vk"></i>
+                      </a class="slider__social-ico">
+                      <a class="slider__social-ico" href="#">
+                        <i class="fab fa-instagram"></i>
+                      </a>
+                    </div>
+                  </div>
+                  <p class="slider__text">
+                    Очень нравятся занятия, хожу уже пять месяцев. На занятиях делаем много упражнений на пресс, бедра и
+                    спину. Мышци подтянулись, появился рельеф и хорошее настроение :)
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <!-- ./slider -->
+        </div>
+      </section>
     </div>
-  </section>
+    <!-- ========== /.reviews ========== -->
 
-  <footer class="footer">
-    <div class="container">
-      <div class="footer__inner">
-        <div class="footer__text">
-          Pilates Plus, 2017 &copy;
+    <!-- ========== contacts ========== -->
+    <div class="section">
+      <section class="contacts">
+        <div class="container">
+          <h2 class="title">Контакты</h2>
+          <div class="contacts__inner">
+            <div class="contacts__block">
+              <div class="contacts__item">
+                <div class="contacts__title">
+                  Адрес
+                </div>
+                <div class="contacts__text">
+                  <a href="#">г. Кропоткин
+                    ул. Дугинец 10а</a>
+                </div>
+              </div>
+
+              <div class="contacts__item">
+                <div class="contacts__title">
+                  Телефон
+                </div>
+                <div class="contacts__text">
+                  <a href="#">+7 918 365 06 07</a>
+                </div>
+              </div>
+
+              <div class="contacts__item">
+                <div class="map__title">
+                  E-mail
+                </div>
+                <div class="contacts__text">
+                  <a href="#">pilatesplus@gmail.com</a>
+                </div>
+              </div>
+            </div>
+            <!-- ./contacts__block -->
+          </div>
         </div>
 
-        <a href="#" class="logo">
-          <img src="img/header/logo.png" alt="logo">
-        </a>
-
-        <div class="social">
-          <a href="#" class="social__item">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-
-          <a href="#" class="social__item">
-            <i class="fab fa-vk"></i>
-          </a>
-
-          <a href="#" class="social__item">
-            <i class="fab fa-instagram"></i>
-          </a>
+        <div class="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.69219910288!2d27.581632651479406!3d53.93721203789147!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbcf6e6a8716ff%3A0xa9e21a901b28152!2z0YPQuy4g0JzQsNC60YHQuNC80LAg0JHQvtCz0LTQsNC90L7QstC40YfQsCAxMzAsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1580290930122!5m2!1sru!2sby"
+            width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen="">
+          </iframe>
         </div>
-      </div>
-    </div>
-  </footer>
+      </section>
+      <!-- ========== /.contacts ========== -->
 
+      <!-- ========== footer ========== -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+            <div class="footer__text">
+              Pilates Plus, 2017 &copy;
+            </div>
+
+            <a href="#" class="logo">
+              <img src="img/header/logo.png" alt="logo">
+            </a>
+
+            <div class="social">
+              <a href="#" class="social__item">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+
+              <a href="#" class="social__item">
+                <i class="fab fa-vk"></i>
+              </a>
+
+              <a href="#" class="social__item">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- ========== /.footer ========== -->
+
+  </div>
 </body>
 
 <script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/jquery.pagepiling.min.js"></script>
+<script src="js/fullpage.min.js"></script>
 <script src="js/slick.min.js"></script>
 <script src="js/main.js"></script>
 

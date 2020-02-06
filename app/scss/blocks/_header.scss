@@ -1,7 +1,6 @@
 .header {
   height: 100vh;
-  position: relative;
-  padding-top: 25px;
+/*   position: relative; */
   background: url('../img/header/ellips.svg') left bottom /contain no-repeat;
   overflow: hidden;
 
@@ -30,6 +29,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 0;
 
     &__telephone {
       font-size: 14px;
@@ -47,3 +47,4 @@
     width: 100%;
   }
 }
+
